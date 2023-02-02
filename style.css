@@ -5,7 +5,7 @@ body {
 }
 
 #terminal {
-  width: 50%;
+  width: 100%;
   margin: 20px auto;
   background-color: #111;
   padding: 20px;
@@ -47,10 +47,9 @@ textarea {
 }
 
 #cat-art {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  font-size: 40px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 20px;
   color: #0f0;
   cursor: pointer;
 }
