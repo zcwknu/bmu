@@ -3,6 +3,24 @@
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Python Development Environment</title>
+  <style>
+    body {
+      background-color: #333;
+      color: #fff;
+      font-family: monospace;
+      opacity: 0;
+      animation: fadeIn 1s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
 </head>
 <body>
   <div id="terminal">
@@ -18,8 +36,6 @@
        > ^ <
     </div>
   </div>
-  <canvas id="gameCanvas" width="800" height="450"></canvas>
   <script src="pong.js"></script>
 </body>
-</html>
-
+  </html>
