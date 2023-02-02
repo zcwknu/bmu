@@ -1,0 +1,60 @@
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: monospace;
+}
+
+#terminal {
+  width: 50%;
+  margin: 20px auto;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.prompt {
+  color: #0f0;
+  float: left;
+}
+
+#banner {
+  margin: 20px 0;
+  font-size: 20px;
+  color: #0f0;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #0f0;
+  font-size: 16px;
+  margin: 10px;
+}
+
+button:hover {
+  color: #ff0;
+}
+
+textarea {
+  background-color: #111;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  width: 100%;
+  height: 200px;
+  resize: none;
+}
+
+#cat-art {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 40px;
+  color: #0f0;
+  cursor: pointer;
+}
+
+#cat-art:hover {
+  color: #ffa500;
+}
